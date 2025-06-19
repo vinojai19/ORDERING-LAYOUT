@@ -1,0 +1,70 @@
+
+body {
+    font-family: "PT Serif", sans-serif;
+}
+
+.header{
+    background-color: #a057a140;
+    color: black;
+    padding: 20px;
+    text-align: center;
+}
+.header__name{
+    font-size: 70px;
+    margin-bottom: 10px;
+}
+.header__title{
+    font-size: 30px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.fooddish1,.fooddish2,.fooddish3,.fooddish4{
+    display: inline-block;
+    border: none;
+    border: solid rebeccapurple;
+    width: 200px;
+    height: 300px;
+    margin-top: 20px;
+    padding-bottom: 250px;
+}
+.fooddish1__name,.fooddish2__name,.fooddish3__name,.fooddish4__name{
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.fooddish1__des,.fooddish2__des,.fooddish3__des,.fooddish4__des{
+    text-align: center;
+}
+.fooddish1__price,.fooddish2__price,.fooddish3__price,.fooddish4__price{
+    text-align: center;
+
+}
+.center {
+    display: block;
+    margin: 0 auto;
+  }
+  
+.fooddishs,.fooddishs1{
+    text-align: center;
+}
+.fooddishs1{
+    background-color: black;
+    color: white;
+}
+.button{
+    background-color: black;
+    color: white;
+    border: none;
+    border: solid rebeccapurple;
+    padding: 3px;
+}
+.buttona{
+    background-color: yellow;
+    color: black;
+    border: none;
+    border: solid rebeccapurple;
+    padding top: 3px;
+    padding left: 200px;
+    padding right: 200px;
+    width: 400px;
+}
